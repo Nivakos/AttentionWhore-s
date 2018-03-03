@@ -1,0 +1,41 @@
+#showcase{
+	background-image:url('./../../assets/personalInfo2.jpg');
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	min-height: 400px;
+
+	/*margin-bottom:30px;*/
+}
+
+#header{
+	border-top: 3px solid orange;
+	background-color:black;
+	font-size:28px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: orangered;
+}
+
+#PersonalInfo{
+	font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+	color: orange;
+	padding-left: 350px;
+}
+
+.blue{
+	color: #80ced6;
+}
+
+.orange{
+	color: orange;
+}
+
+.orangered{
+	color:orangered;
+}
+
+.yellow{
+	color:#ffd633;
+}
+

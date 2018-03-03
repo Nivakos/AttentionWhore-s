@@ -1,0 +1,38 @@
+#showcase{
+	background-image:url('./../../assets/skills.jpg');
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	min-height: 400px;
+
+	/*margin-bottom:30px;*/
+}
+
+#header{
+	border-top: 3px solid orange;
+	background-color:black;
+	font-size:28px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+    color: orangered;
+}
+
+h1{
+	color:yellowgreen ;
+}
+
+.subheading{
+	color:yellowgreen;
+	font-size:36px;
+}
+
+.progress{
+	height:28px;
+	position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+ }
