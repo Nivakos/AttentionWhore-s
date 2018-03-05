@@ -1,0 +1,30 @@
+#showcase{
+	background-image:url('./../../assets/contact.jpg');
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	min-height: 400px;
+
+	/*margin-bottom:30px;*/
+}
+
+#header{
+	border-top: 3px solid orange;
+	background-color:black;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: orangered;
+}
+
+#header h1{
+	font-size:52px;
+}
+
+.cantThink{
+    color:orangered;
+}
+
+#size{
+    font-size:28px;
+    line-height: 1.5;
+}

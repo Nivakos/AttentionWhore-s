@@ -6,6 +6,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { AppRoutingModule } from './/app-routing.module';
     AppComponent,
     HomePageComponent,
     SkillsComponent,
-    PersonalInfoComponent
+    PersonalInfoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

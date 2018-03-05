@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { HomePageComponent } from './home-page/home-page.component'
-import { PersonalInfoComponent } from './personal-info/personal-info.component'
-import { SkillsComponent } from './skills/skills.component'
+import { HomePageComponent } from './home-page/home-page.component';
+import { PersonalInfoComponent } from './personal-info/personal-info.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'skills',
     component: SkillsComponent
+  },
+  {
+  path: 'contact',
+  component: ContactComponent
   }
 ]
 

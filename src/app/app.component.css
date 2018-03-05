@@ -1,17 +1,30 @@
 #main-header{
 	background-color:black;
 	color:orangered;
-	font-size:30px;
-	height: 76px;
+	padding-top: 40px;
 }
 
-#navbar{
+
+#main-header h1{
+	font-size:60px;
+	line-height: 0.8;
+}
+
+/* #navbar{
 	background-color:orange;
 	color:black;
 	border-bottom: 1.5px black solid;
 	max-height: 30px;
 	padding-bottom: 24px;
+} */
+
+/* #navbar{
+	background-color:orange;
+	color:black;
 }
+
+
+
 
 #navbar ul{
 	padding:0;
@@ -27,12 +40,39 @@
 	text-decoration:none;
 	font-size:18px;
 	padding-right:15px;
-}
+} */
 
 #main-footer{
 	background:black;
 	color:orangered;
 	bottom:0;
-	height:20px;
+	height:34px;
 	text-align: center;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
+	border-radius:20px;
+	margin-top:80px;
+}
+
+
+.nav{
+	background-color:orange;
+}
+
+a{
+	color:black;
+	font-weight: bold;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+	background-color: rgb(247, 191, 89);	
+	border-radius:8px;
+	/* color:orangered;
+	border-radius:8px;
+	border:orangered 2px solid; */
+}
+
+#backg{
+	background-color: orange;
 }

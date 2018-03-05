@@ -26,17 +26,21 @@ a {
 }
 */
 
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
 body{
     background-color: black;
     margin:0;
 	color:orange;
 	font-size:22px;
-	line-height:1.2em;
+    line-height:1.2em;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
 
-.container{
-	width:95%;
+.container2{
+	width:91%;
 	margin:auto;
 	overflow:hidden;
 }

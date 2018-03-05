@@ -11,10 +11,12 @@
 #header{
 	border-top: 3px solid orange;
 	background-color:black;
-	font-size:28px;
-	padding-top: 60px;
+	padding-top: 30px;
 	padding-bottom: 60px;
     color: orangered;
+}
+#header h1{
+	font-size:52px;
 }
 
 h1{
@@ -24,7 +26,11 @@ h1{
 .subheading{
 	color:yellowgreen;
 	font-size:36px;
+	vertical-align: top;
+
 }
+
+
 
 .progress{
 	height:28px;
